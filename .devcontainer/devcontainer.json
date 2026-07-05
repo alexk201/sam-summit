@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu26.04",
+	"features": {
+		"ghcr.io/michidk/devcontainers-features/typst:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"tomoki1207.pdf",
+				"myriad-dreamin.tinymist"
+			]
+		}
+	}
+}

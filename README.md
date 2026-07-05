@@ -1,0 +1,1 @@
+typst watch src/main.typ doc.pdf
