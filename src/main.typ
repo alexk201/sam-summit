@@ -43,3 +43,53 @@
   align(bottom + left, image("/img/content/aadc-transparent.png", height: 60%)),
   align(bottom + right, image("/img/content/samx-transparent.png", height: 70%)),
 )
+
+#slide-centered("Was machen wir?")[
+  #image("/img/content/project-room.png")
+]
+
+#slide-centered("Was machen wir?")[
+  #image("/img/content/mini-adc.png")
+]
+
+#slide-centered("Motivation?")[
+  #grid(
+    columns: (1fr, 1fr, 1fr),
+    row-gutter: 1em,
+    image("/img/content/ects.svg"), image("/img/content/competition.svg"), image("/img/content/smiley.svg"),
+    "ECTS", "Wettkampf", "Spaß",
+  )
+]
+
+#slide-centered("AADC // Audi Autonomous Driving Cup?")[
+
+]
+
+#slide-centered("Motivation?")[
+  #grid(
+    columns: (1fr, 1fr, 1fr),
+    row-gutter: 1em,
+    image("/img/content/car.svg"), image("/img/content/software.svg"), image("/img/content/student.svg"),
+    "Identische Hardware", "Eigene Software", "Teams von Studierenden",
+  )
+]
+
+#slide-vertical("Die Anfänge")[
+  #grid(
+    columns: (1fr, 1fr),
+    [
+      - Straßen & Kreuzungen
+      - Schilder
+      - Parken
+      - Passanten
+    ],
+    image("/img/content/aadc.png"),
+  )
+]
+
+#slide-vertical("Das Ende?")[
+  - Letzter AADC: 2019
+  - AUDI: "strategische Neuausrichtung"
+  - Elektromobilität > autonomes Fahren
+  - Erster VDI ADC: 2020
+]
